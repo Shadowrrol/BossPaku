@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_payment" label="Total Payment" language="en" table="x_1521023_hotel_re_scheduled_reservations_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_payment</element>
+            <help/>
+            <hint/>
+            <label>Total Payment</label>
+            <language>en</language>
+            <name>x_1521023_hotel_re_scheduled_reservations_table</name>
+            <plural>Total Payments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-05 15:29:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Payment</sys_name>
+            <sys_package display_value="Hotel Reservation System" source="x_1521023_hotel_re">5e1e7d3bc32112104c399a2ed401319f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel Reservation System">5e1e7d3bc32112104c399a2ed401319f</sys_scope>
+            <sys_update_name>sys_documentation_x_1521023_hotel_re_scheduled_reservations_table_total_payment_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-05 15:29:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

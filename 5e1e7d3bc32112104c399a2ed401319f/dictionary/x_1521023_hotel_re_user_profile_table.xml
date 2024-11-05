@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a4e50ab3c36112104c399a2ed401317b" label="User Profile Table" max_length="40" name="x_1521023_hotel_re_user_profile_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="First Name" mandatory="true" max_length="500" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Number" mandatory="true" max_length="500" name="employee_number" type="string"/>
+        <element label="Age" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element attributes="encode_utf8=false" label="Role Group" mandatory="true" max_length="32" name="role_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="500" name="last_name" type="string"/>
+        <element label="Years of Experience" mandatory="true" max_length="40" name="years_of_experience" type="integer"/>
+        <index name="index">
+            <element name="role_group"/>
+        </index>
+    </element>
+</database>
