@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cf944e33c36112104c399a2ed40131c9" label="Scheduled Reservations Table" max_length="40" name="x_1521023_hotel_re_scheduled_reservations_table" type="collection">
+        <element attributes="encode_utf8=false" display="true" label="Room" mandatory="true" max_length="32" name="room" reference="x_1521023_hotel_re_rooms_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Check-In Date" mandatory="true" max_length="40" name="check_in_date" type="glide_date_time"/>
+        <element label="Total Payment" mandatory="true" max_length="15" name="total_payment" type="decimal"/>
+        <element label="Number of Adults" mandatory="true" max_length="40" name="number_of_adults" type="integer"/>
+        <element label="Number of Days" mandatory="true" max_length="40" name="number_of_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Guest Name" mandatory="true" max_length="500" name="guest_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Check-out Date" mandatory="true" max_length="40" name="check_out_date" type="glide_date_time"/>
+        <element label="Number of Children" mandatory="true" max_length="40" name="number_of_children" type="integer"/>
+        <index name="index">
+            <element name="room"/>
+        </index>
+    </element>
+</database>

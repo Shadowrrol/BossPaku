@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b822ca7fc32112104c399a2ed40131b9" label="Rooms Table" max_length="40" name="x_1521023_hotel_re_rooms_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Capacity" mandatory="true" max_length="40" name="capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="available" label="Availability" mandatory="true" max_length="40" name="availability" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" value="available"/>
+                <element inactive_on_update="false" label="Occupied" value="occupied"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="single" label="Room Type" mandatory="true" max_length="40" name="room_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Double" value="double"/>
+                <element inactive_on_update="false" label="King" value="king"/>
+                <element inactive_on_update="false" label="Queen" value="queen"/>
+                <element inactive_on_update="false" label="Single" value="single"/>
+                <element inactive_on_update="false" label="Quad" value="quad"/>
+                <element inactive_on_update="false" label="Presidential Suite" value="presidential_suite"/>
+                <element inactive_on_update="false" label="Triple" value="triple"/>
+                <element inactive_on_update="false" label="Executive Suite" value="executive_suite"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Room Name" mandatory="true" max_length="500" name="room_name" type="string"/>
+        <element label="Room Rate" mandatory="true" max_length="15" name="room_rate" type="decimal"/>
+    </element>
+</database>

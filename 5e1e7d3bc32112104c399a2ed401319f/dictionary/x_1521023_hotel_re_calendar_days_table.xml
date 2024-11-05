@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd7606f3c36112104c399a2ed4013127" label="Calendar Days Table" max_length="40" name="x_1521023_hotel_re_calendar_days_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business Day" value="business_day"/>
+                <element inactive_on_update="false" label="Holiday" value="holiday"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+    </element>
+</database>

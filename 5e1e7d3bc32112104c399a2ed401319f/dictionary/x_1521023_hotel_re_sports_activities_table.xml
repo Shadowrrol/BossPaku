@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4d058673c36112104c399a2ed40131c4" label="Sports Activities Table" max_length="40" name="x_1521023_hotel_re_sports_activities_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Activity Name" mandatory="true" max_length="500" name="activity_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date and Time" mandatory="true" max_length="40" name="date_and_time" type="glide_date_time"/>
+        <element label="Activity Rate" mandatory="true" max_length="15" name="activity_rate" type="decimal"/>
+    </element>
+</database>
